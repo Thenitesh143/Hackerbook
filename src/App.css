@@ -1,38 +1,325 @@
-.App {
-  text-align: center;
+/* Reset default padding and margin */
+/*...................... COMMON CSS............... */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Set padding for main content area */
+.main {
+  padding: 5px 100px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main2 {
+  padding: 5px 30px !important;
+  overflow: hidden;
+  background-color: #ffffff;
 }
+/*............... COMMON CSS ENDS .................*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ............................TOPBAR CSS......................  */
+/* Top bar styles */
+.topbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background-color: #151515;
+  color: #fff;
+  z-index: 1;
+}
+
+/* Left side of top bar */
+.topbar__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar__left p {
+  font-size: 14px;
+  margin-left: 10px;
+  padding-right: 20px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.topbar__left span {
+  margin-left: 10px;
+}
+/* Right side of top bar */
+.topbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.topbar__right p {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 5px;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Social media icons */
+.tweet {
+  background-color: #1da1f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.linked {
+  background-color: #0077b5;
+}
+
+.insta {
+  background-color: #e4405f;
+}
+
+.fb {
+  background-color: #1976d2;
+}
+@media only screen and (max-width: 767px) {
+  .topbar {
+    display: none;
   }
 }
+/* ........................TOPBAR CSS ENDS....................... */
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    top: 50px!important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    border: solid white;}
+    .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+        background: "#fffff!important";
+    }
+    .css-sghohy-MuiButtonBase-root-MuiButton-root{
+        background-color: #e4405f;
+    }
+    .fonts{
+  font-family: 'Jost', sans-serif;
+
+    }
+    .Select-root {
+      border: none !important;
+    }
+    
+    .Select-root:hover {
+      border: none !important;
+    }
+    .Select-root:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    .Mui-focused {
+      outline: none;
+    }
+    .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+      background: transparent!important;
+    }
+    .css-xi606m{
+  border:1px solid #bfb5b5!important
+    }
+
+
+
+    /* ..........  */
+    /* .zoom-out.zoomed {
+      transform: scale(1.2);
+    } */
+    .zoom-out {
+      display:'block';
+;      width: 100%;
+  
+      overflow: hidden;
+    }
+    .banner {
+      position: relative;
+    }
+    
+ 
+    
+    .BannerHeadings {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1;
+    }
+    
+  
+  
+   .bannerHead{
+    z-index: 13;
+    font-family: Jost;
+   
+    color: rgb(241, 93, 95);
+    
+   
+    line-height: 26px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+    
+   }
+   .BannerHead2{
+    z-index: 10;
+    font-family: Jost;
+   
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    line-height: 130px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 90px;
+  
+   }
+   /* ..........  */
+   .trainin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .imgPart{
+    display: flex;
+    width: 50%;
+   }
+   .textPart{
+    width: 50%;
+   }
+   .one{
+    position: relative;
+   }
+   .two{
+    position: relative;
+    right: 168px;
+   }
+   .textPart h6{
+    color: #F15D5F;
+    font-size: 20px;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+    font-weight: 900;
+
+  font-family: 'Jost', sans-serif;
+   }
+   .textPart h5{
+    font-size: 34px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: 900;
+    z-index: 9;
+   
+  font-family: 'Jost', sans-serif;
+    margin-bottom: 5px;
+   }
+   .textPart p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    z-index: 9;
+    margin-bottom: 10px;
+   }
+   @media (max-width: 1000px) {
+    .BannerHeadings {
+      top: 25%;
+    }
+    
+    .bannerHead {
+      font-size: 24px;
+    }
+    
+    .BannerHead2 {
+      line-height: 80px;
+      font-size: 60px;
+    }
+  }
+   @media (max-width: 880px) {
+    .BannerHeadings {
+      top: 30%;
+    }
+    
+    .bannerHead {
+      font-size: 24px;
+    }
+    
+    .BannerHead2 {
+      line-height: 80px;
+      font-size: 60px;
+    }
+  }
+  
+  
+  @media (max-width: 740px) {
+    .BannerHeadings {
+      top: 40%;
+    }
+    
+    .bannerHead {
+      font-size: 20px;
+    }
+    
+    .BannerHead2 {
+      line-height: 60px;
+      font-size: 48px;
+    }
+    .trainin{
+      display: block;
+      
+     }
+     .imgPart{
+      display: flex;
+      width: unset;
+     }
+     .textPart{
+      width: unset;
+     }
+     .one{
+      position: unset;
+      display: none;
+     }
+     .two{
+      position: unset;
+      width: 100%;
+      margin-top: 20px;     }
+  }
+  
+  @media (max-width: 540px) {
+    .BannerHeadings {
+      top: 22%;
+    }
+    
+    .bannerHead {
+      font-size: 20px;
+    }
+    
+    .BannerHead2 {
+      line-height: 40px;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 380px) {
+    .BannerHeadings {
+      top: 25%;
+    }
+    
+    .bannerHead {
+      font-size: 10px;
+    }
+    
+    .BannerHead2 {
+      line-height: 30px;
+      font-size: 15px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
