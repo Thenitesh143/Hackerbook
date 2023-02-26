@@ -1,8 +1,10 @@
 import React from 'react'
-
+import twnetytwo from '../assets/22.png'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+   <img src={twnetytwo} alt="" style={{width:'100%'}}/>
+    </footer>
   )
 }
 

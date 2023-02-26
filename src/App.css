@@ -8,10 +8,10 @@
 }
 /* Set padding for main content area */
 .main {
-  padding: 5px 100px !important;
+  padding: 5px 100px ;
 }
 .main2 {
-  padding: 5px 30px !important;
+  padding: 5px 100px ;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -88,6 +88,12 @@
 .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
     top: 50px!important;
 }
+.flexButton{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
     border: solid white;}
     .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
@@ -133,7 +139,7 @@
   
       overflow: hidden;
     }
-    .banner {
+    .banner img {
       position: relative;
     }
     
@@ -143,7 +149,7 @@
       position: absolute;
       top: 60%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%,-50%);
       text-align: center;
       z-index: 1;
     }
@@ -157,7 +163,7 @@
     color: rgb(241, 93, 95);
     
    
-    line-height: 26px;
+    /* line-height: 26px; */
     letter-spacing: 3px;
     font-weight: 600;
     font-size: 30px;
@@ -170,10 +176,10 @@
     color: rgb(255, 255, 255);
 
     text-align: center;
-    line-height: 130px;
+    /* line-height: 130px; */
     letter-spacing: 0px;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 80px;
   
    }
    /* ..........  */
@@ -181,21 +187,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
    }
    .imgPart{
     display: flex;
-    width: 50%;
    }
    .textPart{
-    width: 50%;
    }
-   .one{
-    position: relative;
-   }
-   .two{
-    position: relative;
-    right: 168px;
-   }
+  .two{
+  }
    .textPart h6{
     color: #F15D5F;
     font-size: 20px;
@@ -223,103 +224,280 @@
     z-index: 9;
     margin-bottom: 10px;
    }
-   @media (max-width: 1000px) {
-    .BannerHeadings {
-      top: 25%;
-    }
-    
-    .bannerHead {
-      font-size: 24px;
-    }
-    
-    .BannerHead2 {
-      line-height: 80px;
-      font-size: 60px;
-    }
-  }
-   @media (max-width: 880px) {
-    .BannerHeadings {
-      top: 30%;
-    }
-    
-    .bannerHead {
-      font-size: 24px;
-    }
-    
-    .BannerHead2 {
-      line-height: 80px;
-      font-size: 60px;
-    }
-  }
-  
-  
-  @media (max-width: 740px) {
-    .BannerHeadings {
-      top: 40%;
-    }
-    
-    .bannerHead {
-      font-size: 20px;
-    }
-    
-    .BannerHead2 {
-      line-height: 60px;
-      font-size: 48px;
-    }
+   @media (max-width: 1200px) {
     .trainin{
       display: block;
       
      }
      .imgPart{
       display: flex;
-      width: unset;
+      text-align: center ;
+      align-items: center;
      }
      .textPart{
       width: unset;
      }
-     .one{
-      position: unset;
-      display: none;
-     }
+   .one{
+    margin-top: 20px;
+   }
      .two{
       position: unset;
-      width: 100%;
       margin-top: 20px;     }
-  }
   
-  @media (max-width: 540px) {
+   }
+   @media (max-width: 800px) {
+   .one{
+    display: none;
+    position: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 91%;
+   }
+  }
+   /* @media (max-width: 550px) {
     .BannerHeadings {
-      top: 22%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      line-height: 2rem;
+      z-index: 1;
     }
-    
-    .bannerHead {
-      font-size: 20px;
-    }
-    
-    .BannerHead2 {
-      line-height: 40px;
-      font-size: 30px;
-    }
+  } */
+
+  @media (max-width: 480px) {
+ .main2,.main{
+  padding: 10px;
+ }
   }
-  @media (max-width: 380px) {
-    .BannerHeadings {
-      top: 25%;
-    }
-    
-    .bannerHead {
-      font-size: 10px;
-    }
-    
-    .BannerHead2 {
-      line-height: 30px;
-      font-size: 15px;
-    }
+
+  /* ................. */
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
   }
-  
-  
-  
-  
-  
-  
-  
-  
+  .cardBox{
+    background-color: black;
+    text-align: center;
+    padding:10px 20px;
+    padding-bottom: 180px;
+
+  }
+
+ /* .............. // */
+.hasselFree{
+display: flex;
+padding: 20px;
+margin-top: -110px;
+
+}
+.hassel h1{
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5em;
+}
+.hassel p{
+  color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.hassel{
+  background-color: #F15D5F;
+  padding: 20px;
+}
+.hasselFree img{
+  width: 35%;
+}
+/* ..........  */
+.whyChoose{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+}
+.whyChoose img{
+  width: 50%;
+
+}
+ul li{
+  list-style: none;
+}
+.whyChoose h5{
+  font-weight: 600;
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom:30px;
+  font-family: 'Jost', sans-serif;
+    
+}
+.whytext ul li span{
+  padding: 10px;
+}
+.whytext ul li {
+  padding: 10px;
+}
+/* ...........  */
+.rivew{
+  padding: 45px 30px;
+  background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.imgSec{
+  display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.textSec p{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: '#fd4a18';
+    display: inline-block;
+    text-transform: uppercase;
+   
+  font-family: 'Jost', sans-serif;
+
+}
+.textSec h5{
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px;
+  font-family: 'Jost', sans-serif;
+
+}
+.rivew p{
+  margin-bottom: 15px;
+  font-family: 'Jost', sans-serif;
+
+}
+.stars{
+  display: flex;
+}
+.cardss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+.imgSec img{
+  height: auto;
+  width: 20%;
+  border: none;
+  margin-right: 10px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.left img{
+/* float: left; */
+width: 25%!important;
+}
+
+.setApart h5{
+  font-family: 'Jost', sans-serif;
+font-size: 32px!important;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+  z-index: 9;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.boxx{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.setApart{
+  padding: 50px 30px;
+}
+.ensure h5{
+  font-family: 'Jost', sans-serif;
+  font-size: 32px!important;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    z-index: 9;
+    text-align: center;
+}
+.ensure p{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.accordian{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items:center;
+}
+.accordian img{
+  width: 50%;
+}
+.ensure{
+  padding: 20px;
+}
+.ready{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  margin: 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+.ready h5{
+  font-size: 32px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.topFoot{
+  display: flex;
+  padding: 40px 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 30px 0px rgb(21 21 21 / 10%);
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+.fllex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fllex h5{
+  font-size: 25px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.fllex img{
+  width: 18%;
+margin-right: 10px;
+}
+footer{
+  /* margin-top: 60px;
+  background-image: url(https://yodhagtc.com/wp-content/uploads/2021/06/sss11111.png)!important;
+  background-position: center;
+  background-size: cover !important;
+  background-color: black;
+    color: #cccccc;
+    display: inline-block;
+    width: 100%;
+    float: left; */
+}
