@@ -1,0 +1,46 @@
+.benefits-container {
+  margin: 100px 20px 20px 20px;
+}
+
+.benefits-heading {
+  color: #f15d5f;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.5em;
+  text-align: left;
+}
+.benefits-inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.benefits-details {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.benefits-details > p {
+  color: #878787;
+}
+
+.checkmark {
+  width: 45px;
+}
+
+.note-2 {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-style: italic;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  padding: 15px;
+  border-left: 5px solid #f9f0c3;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.teaching {
+  margin-top: 100px;
+}

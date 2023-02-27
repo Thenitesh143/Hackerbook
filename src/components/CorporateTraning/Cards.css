@@ -1,0 +1,13 @@
+div.cardsz {
+border: 1px solid!important;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 16%);
+}
+
+.cardsz > img {
+  width: 50px;
+}
+
+.icon-cardsz {
+  width: 50px;
+}

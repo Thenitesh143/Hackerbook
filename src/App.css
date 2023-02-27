@@ -1,4 +1,4 @@
-/* Reset default padding and margin */
+Reset default padding and margin
 /*...................... COMMON CSS............... */
 * {
   padding: 0;
@@ -14,6 +14,21 @@
   padding: 5px 100px ;
   overflow: hidden;
   background-color: #ffffff;
+}
+.orange{
+  background-color: #FD4A18;
+  color: white;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.orange h5{
+  color: #FFFFFF;
+  font-size: 32px;
+  text-transform: none;
+  line-height: 1.5em;
 }
 /*............... COMMON CSS ENDS .................*/
 
@@ -180,6 +195,7 @@
     letter-spacing: 0px;
     font-weight: 600;
     font-size: 80px;
+    margin: 0px;
   
    }
    /* ..........  */
@@ -485,19 +501,75 @@ font-size: 32px!important;
     line-height: 1.5em;
     font-weight: 600;
     font-family: 'Jost', sans-serif;
+    margin:0px
 }
 .fllex img{
   width: 18%;
 margin-right: 10px;
 }
 footer{
-  /* margin-top: 60px;
+  margin-top: -20px;
   background-image: url(https://yodhagtc.com/wp-content/uploads/2021/06/sss11111.png)!important;
   background-position: center;
   background-size: cover !important;
-  background-color: black;
+  background-color: #1c1c1c;
     color: #cccccc;
     display: inline-block;
     width: 100%;
-    float: left; */
+    float: left;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px;
 }
+.tw ul li{
+  padding: 10px;
+  color: orange;
+  list-style:disc;
+}
+.tw ul li span{
+  color: white;
+}
+.oo {
+  width: 40%;
+}
+.tw{
+  width: 30%;
+}
+.p{
+  margin: 20px 0px;
+  line-height: 2em;
+}
+.tw h4{
+  font-family: 'Jost', sans-serif;
+font-size: 30px;
+}
+.lowerFoot{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.lowerFoot p{
+  font-size: 18px;
+font-weight: bold;
+}
+.tou{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tou p{
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+ a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 15px;
+ }

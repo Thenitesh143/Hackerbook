@@ -4,6 +4,7 @@ import {AppBar,Box,CssBaseline,Drawer,IconButton,List,Toolbar,Button,Typography,
 import MenuIcon from "@mui/icons-material/Menu";
 import SavedSearchIcon from "@mui/icons-material/SavedSearch";
 import logos from "../assets/logos.jpg";
+import { Link } from "react-router-dom";
 
 const drawerWidth = "100%";
 
@@ -49,9 +50,11 @@ function Navbar({ window }) {
             event.stopPropagation();
           }}
         >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+           <Link to='/sales'><MenuItem value={10}>Salesforce Offline Training In Person</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Corporate Training</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>Online Training</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Placements</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Career Build Programs</MenuItem></Link>
         </Select>
       </List>
       <List>
@@ -108,7 +111,7 @@ function Navbar({ window }) {
                 color: "black",
               }}
             >
-              <img src={logos} alt="" style={{ width: "160px" }} />
+             <Link to='/'> <img src={logos} alt="" style={{ width: "160px" }} /></Link>
             </Typography>
             <Box sx={{ display: { xs: "none", lg: "block" } }}>
               <Button sx={{ color: "black", fontFamily: "Jost" }}>
@@ -141,9 +144,11 @@ function Navbar({ window }) {
                   </p>
                 )}
               >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+              <Link to='/sales'><MenuItem value={10}>Salesforce Offline Training In Person</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Corporate Training</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>Online Training</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Placements</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Career Build Programs</MenuItem></Link>
               </Select>
 
               <Button sx={{ color: "black", fontFamily: "Jost" }}>

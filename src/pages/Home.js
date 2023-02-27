@@ -43,7 +43,7 @@ const Home = () => {
        <Navbar/>
        <div>
     
-   <div className="banner">
+   <div className="banners">
       <img src={banner} alt="" className='zoom-out' ref={imgRef} />
     </div>
     <div className="BannerHeadings">
@@ -54,7 +54,7 @@ const Home = () => {
                   variant="contained"
                   sx={{
                     background: "white",
-                    padding: "5px 30px",
+                    padding: "15px 30px",
                     fontFamily: "Jost",
                     color:'black',
                     marginRight:'15px'
@@ -71,15 +71,16 @@ const Home = () => {
                     display:{xs:'none',sm:'block'}
                   }}
                 >
-Contact Us                </Button>
+                  Contact Us               
+                   </Button>
     </div>
     </div>
     </div>
     <div className="trainin main2 ">
       <div className="textPart">
         <h6>#ABOUT US</h6>
-        <h5>Yodha Global Training Center <br/>Welcomes You To The World Of Skillful<br/> Learning</h5>
-        <p>Yodha Global Training Center is one of the professional training institutes delivering truly unparalleled learning and training experiences to students.</p>
+        <h5>Hackerbook Global Training Center Welcomes You To The World Of Skillful Learning</h5>
+        <p>Hackerbook Global Training Center is one of the professional training institutes delivering truly unparalleled learning and training experiences to students.</p>
                 <Button
                   variant="contained"
                   sx={{
@@ -110,7 +111,7 @@ Contact Us                </Button>
       <img src={five} alt=""  />
       <div className="hassel">
      <h1> We create a hassle-free bridge to employment opportunities</h1>
-     <p>Yodha Global Training Center students get priority access to exciting employment opportunities from our pool of select employment partners.</p>
+     <p>Hackerbook Global Training Center students get priority access to exciting employment opportunities from our pool of select employment partners.</p>
       </div>
     </div>
     <div className="whyChoose">
@@ -186,7 +187,7 @@ Contact Us                </Button>
       <div className="boxx">
    <BasicCard img={eleven} align={'left'} text={'100% Practical Approach'} para={'We have expert trainers with a strong belief that best friend of a developer is a Keyboard, so as our 100% Practical Approach.'}/>
    <BasicCard img={twelve} align={'left'} text={'Limited Batches'} para={'We maintain our batch sizes limited for qualified attention and proper practical time. Limited batches for each session help both trainer as well as trainees to work well on the concepts.'}/>
-   <BasicCard img={thirteen} align={'left'} text={'Learn From The Best'} para={'When you join Yodha Global Training Center, you’ll be taught by leading academics in an environment of innovation and discovery.'}/>
+   <BasicCard img={thirteen} align={'left'} text={'Learn From The Best'} para={'When you join Hackerbook Global Training Center, you’ll be taught by leading academics in an environment of innovation and discovery.'}/>
    <BasicCard img={fourteen} align={'left'} text={'Hands On Learning'} para={'We provide online training to help you grow your expertise at your own pace in your chosen area'}/>
    <BasicCard img={fifteen} align={'left'} text={'100% Placement Assistance'} para={'We provide online training to help you grow your expertise at your own pace in your chosen area'}/>
    <BasicCard img={sixteen} align={'left'} text={'Dedicated Support'} para={'We provide online training to help you grow your expertise at your own pace in your chosen area'}/>
