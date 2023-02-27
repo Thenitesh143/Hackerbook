@@ -10,15 +10,6 @@
   line-height: 25px;
 }
 
-.cards-containers {
+.cards-container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-.red-quote {
-  color: #f15d5e;
-  font-size: 45px;
-  text-transform: none;
-  font-style: italic;
-  line-height: 1.5em;
 }

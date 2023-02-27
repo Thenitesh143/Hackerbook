@@ -4,7 +4,6 @@ import StarCards from "./StarCards";
 
 import topsideImg from "../../assets/1-2.jpg";
 import bottomsideImg from "../../assets/career-builder-3.jpg";
-import { Button } from "@mui/material";
 
 const OnlineTraning = (prop) => {
   return (
@@ -87,12 +86,6 @@ const OnlineTraning = (prop) => {
             – Jennifer Yi Boyer, ACT
           </div>
           <button className="btn">Know more information</button>
-        </div>
-        <div className="orange">
-            <h5>Get In Touch And We'll Take You To Next Steps.</h5>
-            <Button sx={{ color: "white", fontFamily: "Jost", backgroundColor:'black' , padding:'20px 40px' }}>
-                Courses
-              </Button>
         </div>
       </div>
     </>

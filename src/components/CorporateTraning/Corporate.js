@@ -3,7 +3,6 @@ import "./Corporate.css";
 import Cards from "./Cards";
 
 import topsideImg from "../../assets/1-2.jpg";
-import bottomsideImg from "../../assets/career-builder-3.jpg";
 
 const Corporate = (prop) => {
   return (
@@ -50,20 +49,9 @@ const Corporate = (prop) => {
             </p>
           </div>
         </div>
-        <div
-          className="card-containers main"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            marginTop: "50px",
-          }}
-        >
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-        </div>
+
+        <Cards />
+
         <div className="career-bottom">
           <div className="red-quote">
             <em>
