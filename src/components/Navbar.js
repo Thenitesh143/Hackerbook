@@ -20,7 +20,10 @@ function Navbar({ window }) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <List>
-        <Button sx={{ color: "black", fontFamily: "Jost" }}>About Us</Button>
+      <Link to="/about"> <Button sx={{ color: "black", fontFamily: "Jost" }}>
+                About Us
+              </Button>
+              </Link>
       </List>
       <List>
         <Select
@@ -58,16 +61,15 @@ function Navbar({ window }) {
         </Select>
       </List>
       <List>
-        <Button sx={{ color: "black", fontFamily: "Jost" }}>Courses</Button>
+        <Link to="/courses"><Button sx={{ color: "black", fontFamily: "Jost" }}>Courses</Button></Link>
       </List>
       <List>
-        <Button sx={{ color: "black", fontFamily: "Jost" }}>Internship</Button>
+        <Link to="/internship"><Button sx={{ color: "black", fontFamily: "Jost" }}>Internship</Button></Link>
       </List>
       <List>
-        <Button sx={{ color: "black", fontFamily: "Jost" }}>Contact Us</Button>
+        <Link to="/contactus"><Button sx={{ color: "black", fontFamily: "Jost" }}>Contact Us</Button></Link>
       </List>
       <List>
-        <Button sx={{ color: "black", fontFamily: "Jost" }}>About Us</Button>
       </List>
       <List>
         <Button sx={{ color: "black", fontFamily: "Jost" }}>
@@ -75,7 +77,7 @@ function Navbar({ window }) {
         </Button>
       </List>
       <List>
-        <Button sx={{ color: "white" }}>
+       <Link to='/registernow'> <Button sx={{ color: "white" }}>
           <Button
             variant="contained"
             sx={{
@@ -87,6 +89,7 @@ function Navbar({ window }) {
             Register Now
           </Button>
         </Button>
+        </Link>
       </List>
     </Box>
   );
@@ -114,9 +117,10 @@ function Navbar({ window }) {
              <Link to='/'> <img src={logos} alt="" style={{ width: "160px" }} /></Link>
             </Typography>
             <Box sx={{ display: { xs: "none", lg: "block" } }}>
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
+             <Link to="/about"> <Button sx={{ color: "black", fontFamily: "Jost" }}>
                 About Us
               </Button>
+              </Link>
 
               <Select
                 sx={{
@@ -151,32 +155,27 @@ function Navbar({ window }) {
           <Link to="/carrer"><MenuItem value={30}>Career Build Programs</MenuItem></Link>
               </Select>
 
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
-                Courses
-              </Button>
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
-                Internship
-              </Button>
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
-                Contact Us
-              </Button>
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
-                About Us
-              </Button>
+              <Link to="/courses"><Button sx={{ color: "black", fontFamily: "Jost" }}>Courses</Button></Link>
+              
+              <Link to="/internship"><Button sx={{ color: "black", fontFamily: "Jost" }}>Internship</Button></Link>
+              <Link to="/contactus"><Button sx={{ color: "black", fontFamily: "Jost" }}>Contact Us</Button></Link>
               <Button sx={{ color: "black", fontFamily: "Jost" }}>
                 <SavedSearchIcon />
               </Button>
               <Button sx={{ color: "white" }}>
-                <Button
-                  variant="contained"
-                  sx={{
-                    background: "#fd4a18",
-                    padding: "15px",
-                    fontFamily: "Jost",
-                  }}
-                >
-                  Register Now
-                </Button>
+              <Link to='/registernow'> <Button sx={{ color: "white" }}>
+          <Button
+            variant="contained"
+            sx={{
+              background: "#fd4a18",
+              padding: "15px",
+              fontFamily: "Jost",
+            }}
+          >
+            Register Now
+          </Button>
+        </Button>
+        </Link>
               </Button>
             </Box>
             <IconButton
