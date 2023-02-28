@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function SimpleAccordion() {
   return (
-    <div style={{width:'44%'}}>
+    <div >
       <Accordion sx={{backgroundColor:'#F7F8F9'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

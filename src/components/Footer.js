@@ -8,17 +8,20 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Button, Icon } from '@mui/material';
+
+import './Footer.css'
 import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
-    <div>
-    <footer>
-   {/* <img src={twnetytwo} alt="" style={{width:'100%'}}/> */}
-   <div className="oo">
-    <img src={logo} alt="" style={
-{width:'40%',marginBottom:'20px'}
-    }/>
-    <div>
+    <div className='footer-container'>
+      <footer>
+        {/* <img src={twnetytwo} alt="" style={{width:'100%'}}/> */}
+        <div className="oo">
+          <img src={logo} alt="" style={
+       {width:'40%',marginBottom:'20px'}
+          } />
+           <div>
     <Button
             variant="contained"
             sx={{
@@ -31,14 +34,14 @@ const Footer = () => {
          Upload Resume
           </Button>
           </div>
-    <div class="topbar__right">
-      <a href='https://www.facebook.com/HackerBookBangalore'><p class='social-media-icon fb'><Icon sx={{ color: 'white',display:'flex',justifyContent:'center',alignItems:'center' }} ><FacebookIcon fontSize="small"/></Icon></p></a>
-      <a href="https://www.instagram.com/hackerbook_technologies/"><p class='social-media-icon tweet' ><Icon sx={{ color: 'white',display:'flex',justifyContent:'center',alignItems:'center' }} ><TwitterIcon fontSize="small"/></Icon></p></a>
-      <p class='social-media-icon linked'><Icon sx={{ color: 'white',display:'flex',justifyContent:'center',alignItems:'center' }} ><LinkedInIcon fontSize="small"/></Icon></p>
-      <p class='social-media-icon insta'><Icon sx={{ color: 'white',display:'flex',justifyContent:'center',alignItems:'center' }} ><InstagramIcon fontSize="small"/></Icon></p>
-    </div>
-   </div>
-   <div className="tw">
+          <div class="topbar__right">
+            <p class='social-media-icon fb'><Icon sx={{ color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }} ><FacebookIcon fontSize="small" /></Icon></p>
+            <p class='social-media-icon tweet' ><Icon sx={{ color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }} ><TwitterIcon fontSize="small" /></Icon></p>
+            <p class='social-media-icon linked'><Icon sx={{ color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }} ><LinkedInIcon fontSize="small" /></Icon></p>
+            <p class='social-media-icon insta'><Icon sx={{ color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }} ><InstagramIcon fontSize="small" /></Icon></p>
+          </div>
+        </div>
+        <div className="tw">
     <h4> Services
 </h4>
 <ul>
@@ -78,17 +81,17 @@ const Footer = () => {
 </ul>
    </div>
 
-    </footer>
-    <div className="lowerFoot">
-    <p>Copyright 2022 Yodha GTC. All Rights Reserved.
-</p>
-<div className="tou">
-  <p>Carrer</p>
-  <p>Terms Of Use</p>
-  <p>Privacy Policy</p>
-</div>
-   </div>
-   </div>
+      </footer>
+      <div className="lowerFoot">
+        <p>Copyright 2022 Yodha GTC. All Rights Reserved.
+        </p>
+        <div className="tou">
+          <p>Carrer</p>
+          <p>Terms Of Use</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
   )
 }
 

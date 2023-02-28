@@ -186,6 +186,9 @@
   .top-container-text {
     text-align: center;
   }
+  .btn {
+    margin-left: 2px;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 500px) {
@@ -193,5 +196,8 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-margin: 0;
+  }
+  .btn {
+    margin-left: 2px;
   }
 }

@@ -53,7 +53,7 @@ function Navbar({ window }) {
             event.stopPropagation();
           }}
         >
-           <Link to='/sales'><MenuItem value={10}>Vulnerablity Assesments</MenuItem></Link>
+            <Link to='/sales'><MenuItem value={10}>Vulnerablity Assesments</MenuItem></Link>
           <Link to="/corporal"><MenuItem value={20}>Web Application Penitration Testing</MenuItem></Link>
           <Link to="/online"><MenuItem value={30}>API Penitration Testing</MenuItem></Link>
           <Link to="/place"><MenuItem value={30}>Mobile Penitration Testing</MenuItem></Link>
@@ -65,7 +65,6 @@ function Navbar({ window }) {
           <Link to="/carrer"><MenuItem value={30}>Automation Testing</MenuItem></Link>
         </Select>
       </List>
-
       <List>
       <Select
                 sx={{
@@ -99,7 +98,6 @@ function Navbar({ window }) {
 
        </Select>
       </List>
-   
       <List>
       <Select
                 sx={{
@@ -138,6 +136,8 @@ function Navbar({ window }) {
           <Link to="/carrer"><MenuItem value={30}>Manual Testing </MenuItem></Link>
           <Link to="/carrer"><MenuItem value={30}>Selanium Automation </MenuItem></Link>
               </Select>
+      </List>
+      <List>
       </List>
       <List>
         <Button sx={{ color: "black", fontFamily: "Jost" }}>
@@ -295,9 +295,11 @@ function Navbar({ window }) {
           <Link to="/carrer"><MenuItem value={30}>Manual Testing </MenuItem></Link>
           <Link to="/carrer"><MenuItem value={30}>Selanium Automation </MenuItem></Link>
               </Select>
+              <Button sx={{ color: "black", fontFamily: "Jost" }}>
+                <SavedSearchIcon />
+              </Button>
               <Button sx={{ color: "white" }}>
               <Link to='/registernow'> <Button sx={{ color: "white" }}>
-             
           <Button
             variant="contained"
             sx={{
