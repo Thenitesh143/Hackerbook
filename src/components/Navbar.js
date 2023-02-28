@@ -53,23 +53,91 @@ function Navbar({ window }) {
             event.stopPropagation();
           }}
         >
-           <Link to='/sales'><MenuItem value={10}>Salesforce Offline Training In Person</MenuItem></Link>
-          <Link to="/corporal"><MenuItem value={20}>Corporate Training</MenuItem></Link>
-          <Link to="/online"><MenuItem value={30}>Online Training</MenuItem></Link>
-          <Link to="/place"><MenuItem value={30}>Placements</MenuItem></Link>
-          <Link to="/carrer"><MenuItem value={30}>Career Build Programs</MenuItem></Link>
+           <Link to='/sales'><MenuItem value={10}>Vulnerablity Assesments</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Web Application Penitration Testing</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>API Penitration Testing</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Mobile Penitration Testing</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Thick Client Penitration Training</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>DevSecOps</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Vulnerablity Manangement</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>End Point Management</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Functional Testing </MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Automation Testing</MenuItem></Link>
         </Select>
       </List>
+
       <List>
-        <Link to="/courses"><Button sx={{ color: "black", fontFamily: "Jost" }}>Courses</Button></Link>
+      <Select
+                sx={{
+                  backgroundColor: "white",
+                  color: "black",
+
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "&:hover .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      border: "none",
+                    },
+                  "& .MuiSelect-icon": {
+                    color: "black",
+                  },
+                }}
+                displayEmpty
+                renderValue={() => (
+                  <p style={{ fontFamily: "Jost", fontSize: "14px" }}>
+                    Certifications
+                  </p>
+                )}
+              >
+                <Link to='/sales'><MenuItem value={10}>CEH</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>CCSE</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>CASE JAVA</MenuItem></Link>
+
+       </Select>
       </List>
+   
       <List>
-        <Link to="/internship"><Button sx={{ color: "black", fontFamily: "Jost" }}>Internship</Button></Link>
-      </List>
-      <List>
-        <Link to="/contactus"><Button sx={{ color: "black", fontFamily: "Jost" }}>Contact Us</Button></Link>
-      </List>
-      <List>
+      <Select
+                sx={{
+                  backgroundColor: "white",
+                  color: "black",
+
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "&:hover .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      border: "none",
+                    },
+                  "& .MuiSelect-icon": {
+                    color: "black",
+                  },
+                }}
+                displayEmpty
+                renderValue={() => (
+                  <p style={{ fontFamily: "Jost", fontSize: "14px" }}>
+                    Trainings
+                  </p>
+                )}
+              >
+                <Link to='/sales'><MenuItem value={10}>Cybersecurity - job Oriented Training</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Cybersecurity - CEH from EC council</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>Cybersecurity - CEH + cloud security from EC-COUNCIl</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Cybersecurity - Source Code Analyst</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Thick Client Penitration Training</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Cybersecurity Expert</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>SOC Analyst</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Clous Security</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Manual Testing </MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Selanium Automation </MenuItem></Link>
+              </Select>
       </List>
       <List>
         <Button sx={{ color: "black", fontFamily: "Jost" }}>
@@ -148,22 +216,88 @@ function Navbar({ window }) {
                   </p>
                 )}
               >
-              <Link to='/sales'><MenuItem value={10}>Salesforce Offline Training In Person</MenuItem></Link>
-          <Link to="/corporal"><MenuItem value={20}>Corporate Training</MenuItem></Link>
-          <Link to="/online"><MenuItem value={30}>Online Training</MenuItem></Link>
-          <Link to="/place"><MenuItem value={30}>Placements</MenuItem></Link>
-          <Link to="/carrer"><MenuItem value={30}>Career Build Programs</MenuItem></Link>
+                <Link to='/sales'><MenuItem value={10}>Vulnerablity Assesments</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Web Application Penitration Testing</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>API Penitration Testing</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Mobile Penitration Testing</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Thick Client Penitration Training</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>DevSecOps</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Vulnerablity Manangement</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>End Point Management</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Functional Testing </MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Automation Testing</MenuItem></Link>
               </Select>
+              <Select
+                sx={{
+                  backgroundColor: "white",
+                  color: "black",
 
-              <Link to="/courses"><Button sx={{ color: "black", fontFamily: "Jost" }}>Courses</Button></Link>
-              
-              <Link to="/internship"><Button sx={{ color: "black", fontFamily: "Jost" }}>Internship</Button></Link>
-              <Link to="/contactus"><Button sx={{ color: "black", fontFamily: "Jost" }}>Contact Us</Button></Link>
-              <Button sx={{ color: "black", fontFamily: "Jost" }}>
-                <SavedSearchIcon />
-              </Button>
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "&:hover .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      border: "none",
+                    },
+                  "& .MuiSelect-icon": {
+                    color: "black",
+                  },
+                }}
+                displayEmpty
+                renderValue={() => (
+                  <p style={{ fontFamily: "Jost", fontSize: "14px" }}>
+                    Certifications
+                  </p>
+                )}
+              >
+                <Link to='/sales'><MenuItem value={10}>CEH</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>CCSE</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>CASE JAVA</MenuItem></Link>
+
+              </Select>
+              <Select
+                sx={{
+                  backgroundColor: "white",
+                  color: "black",
+
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "&:hover .MuiOutlinedInput-notchedOutline": {
+                    border: "none",
+                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      border: "none",
+                    },
+                  "& .MuiSelect-icon": {
+                    color: "black",
+                  },
+                }}
+                displayEmpty
+                renderValue={() => (
+                  <p style={{ fontFamily: "Jost", fontSize: "14px" }}>
+                    Trainings
+                  </p>
+                )}
+              >
+                <Link to='/sales'><MenuItem value={10}>Cybersecurity - job Oriented Training</MenuItem></Link>
+          <Link to="/corporal"><MenuItem value={20}>Cybersecurity - CEH from EC council</MenuItem></Link>
+          <Link to="/online"><MenuItem value={30}>Cybersecurity - CEH + cloud security from EC-COUNCIl</MenuItem></Link>
+          <Link to="/place"><MenuItem value={30}>Cybersecurity - Source Code Analyst</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Thick Client Penitration Training</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Cybersecurity Expert</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>SOC Analyst</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Clous Security</MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Manual Testing </MenuItem></Link>
+          <Link to="/carrer"><MenuItem value={30}>Selanium Automation </MenuItem></Link>
+              </Select>
               <Button sx={{ color: "white" }}>
               <Link to='/registernow'> <Button sx={{ color: "white" }}>
+             
           <Button
             variant="contained"
             sx={{

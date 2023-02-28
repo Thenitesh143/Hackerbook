@@ -10,7 +10,6 @@ const Salesforce = () => {
             <Sales
                 info="Classroom Traning"
                 about="Get the emerging skills of tomorrow with Yodha Global Training Institute" />
-            <Sales />
             <TopFooter/>
 <Footer/>
 

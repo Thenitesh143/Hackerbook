@@ -76,6 +76,7 @@ Reset default padding and margin
   padding: 8px;
   border-radius: 50px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 /* Social media icons */
@@ -521,6 +522,8 @@ footer{
     /* justify-content: space-between; */
     align-items: center;
     padding: 30px;
+    text-align: center;
+
 }
 .tw ul li{
   padding: 10px;
@@ -532,6 +535,7 @@ footer{
 }
 .oo {
   width: 40%;
+  text-align: left;
 }
 .tw{
   width: 30%;
@@ -616,4 +620,7 @@ font-weight: bold;
  }
  .margi{
   padding: 20px;
+ }
+ a{
+  padding: 0px;
  }
